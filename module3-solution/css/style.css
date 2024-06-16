@@ -1,0 +1,68 @@
+body {
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: medium;
+  background-color: rgb(252, 251, 245);
+}
+
+#nav-header {
+  background-color: rgb(188, 151, 222);
+  padding: 10px 0;  /* Añade padding vertical para más altura */
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  color: black !important; /* Asegurándonos de que el color negro se aplique */
+}
+
+.navbar-header {
+  width: 100%; /* Asegura que el header ocupe todo el ancho disponible */
+}
+
+.navbar-toggle {
+  margin-right: 15px; /* Añade margen a la derecha del botón para más espacio */
+}
+
+.nav-item {
+  background-color: rgb(231, 230, 148);
+  width: 100%;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.container {
+  margin: auto;
+  width: 95%; /* Ajusta la anchura si es necesario para más anchura general */
+}
+
+.col-xs-12 {
+  background-color: rgb(218, 200, 235);
+  border: 2px solid black;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h3 {
+  color: rgb(33, 32, 32);
+  text-align: center;
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+p {
+  color: black;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    display: block;
+  }
+}
